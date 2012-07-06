@@ -1,0 +1,39 @@
+{
+  "name": "grunt-sandbox",
+  "description": "Thingy wotsit.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/richardbutler/grunt-sandbox",
+  "author": {
+    "name": "Richard Butler",
+    "email": "richard.butler@ubs.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/richardbutler/grunt-sandbox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/richardbutler/grunt-sandbox/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/richardbutler/grunt-sandbox/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/grunt-sandbox",
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "jsdom": "*",
+    "requirejs": "*",
+    "grunt": "~0.3.11",
+    "grunt-contrib": "~0.1.0",
+    "grunt-mocha": "~0.1.1",
+    "grunt-requirejs": "~0.2.8"
+  },
+  "keywords": []
+}
